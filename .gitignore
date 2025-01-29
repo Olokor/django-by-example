@@ -1,0 +1,4 @@
+pipfile
+.lock
+.pyc
+.sqlite3
