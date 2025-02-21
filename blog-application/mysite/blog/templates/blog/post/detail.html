@@ -3,7 +3,11 @@
 {% block content %}
     <h1>{{ post.title }}</h1>
     <p class="date">
-        Published {{ post.publish }} by {{ post.author }}
+        Published {{ post.publish }} by {{ post.author }} this
     </p>
     {{ post.body|linebreaks }}
+    <p>
+        <a href="{% url "blog:post_share" post.id %}">Share a post</a>
+
+    </p>
 {% endblock %}

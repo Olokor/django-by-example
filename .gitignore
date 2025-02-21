@@ -2,3 +2,4 @@ pipfile
 .lock
 .pyc
 .sqlite3
+*.env
